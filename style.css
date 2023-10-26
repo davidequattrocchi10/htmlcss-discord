@@ -51,38 +51,6 @@ button{
 
 /* Main Debug*/
 
-.debug .container2_main{
-    background-color: white;
-    display: flex;
-    height: 350px;
-    padding: 2rem 20rem;
-
-
-}
-
-.debug .item1{
-    flex: 1.5;
-    height: 100%;
-    background-color: #42a0fff7;
-    border: 2px dashed black;
-
-}
-
-.debug .item2{
-    flex: 1;
-    height: 100%;
-    background-color: #ffc3ce;
-    border: 2px dashed black;
-
-}
-
-.debug .container3_main{
-    background-color: #8080804f;
-    display: flex;
-    height: 350px;
-    padding: 2rem 20rem;
-
-}
 
 .debug .fifth_section{
     background-color: #8080804f;
@@ -174,18 +142,79 @@ button{
     width: 15rem;
 }
 
-.second_section{}
 
-.container2_main{}
+.second_section{
+    height: 500px;
+    background-color: white;
+}
 
-.item1{}
+.container2_main{
 
-.item2{}
+    display: flex;
+    height: 400px;
+    padding: 2rem 20rem;
 
-.third_section{}
+}
 
-.container3_main{}
+.item1{
+    flex: 1.5;
+}
 
+.item1 img{
+    height: 100%;
+    margin-top: 1rem;
+}
+.item2{
+    flex: 1;
+}
+
+.container2_main h1{
+    font-size: xx-large;
+    margin: 3rem 1rem 1rem 6rem;
+}
+
+.container2_main p{
+    margin-left: 6rem;
+    margin-right: -1rem;
+    line-height: 1.5;
+}
+
+.third_section{
+    height: 700px;
+    background-color: #d3d3d35c;
+}
+
+.container3_main{
+
+    display: flex;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container3_main .item2{
+    margin: 2rem;
+
+}
+
+.container3_main h1{
+    font-size: xx-large;
+    margin: -5rem 0rem 1rem 12rem;
+    padding: 0rem 2rem 0rem 3rem;
+}
+
+.container3_main p{
+    margin-left: 15rem;
+    margin-right: 3rem;
+    line-height: 1.5;
+}
+
+.container3_main img{
+    margin-left: 4rem;
+    max-width: 60%;
+
+}
 .fourth_section{}
 
 .fifth_section{}
