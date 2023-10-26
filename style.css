@@ -52,20 +52,6 @@ button{
 /* Main Debug*/
 
 
-.debug .fifth_section{
-    background-color: #8080804f;
-    height: 600px;
-    padding: 2rem 20rem;
-    
-}
-
-.debug .container4_main{
-    background-color: green;
-    height: 100%;
-    border: 2px dashed black;
-
-}
-
 .debug .row_container{
     background-color: black;
     display: flex;
@@ -92,6 +78,18 @@ button{
 }
 
 /* Main */
+h1{
+    font-size: 2.2em;
+}
+
+p{
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
 .first_section{
     background-image: url(./img/jumbo.png);
     height: 500px;
@@ -116,19 +114,21 @@ button{
     text-align: center;
     margin-bottom: 1rem;
     padding: 0px 21px;
-    line-height: 1.5;
 }
 
 .container1_main .download{
     background-color: white;
+    margin-left: 6rem;
+    margin-right: 1rem;
+}
+
+.download {
     font-size: 15px;
     font-weight: 600;
     border-radius: 50px;
     border: none;
     height: 42px;
     width: 13rem;
-    margin-left: 6rem;
-    margin-right: 1rem;
 }
 
 .container1_main .open{
@@ -149,7 +149,6 @@ button{
 }
 
 .container2_main{
-
     padding: 2rem 20rem;
     display: flex;
     height: 90%;
@@ -171,14 +170,12 @@ button{
 }
 
 .container2_main h1{
-    font-size: 2.2em;
     margin: 3rem 0rem 1rem 6rem;
 }
 
 .container2_main p{
     margin-left: 6rem;
     margin-right: -2rem;
-    line-height: 1.5;
 }
 
 .third_section{
@@ -187,43 +184,69 @@ button{
 }
 
 .container3_main{
-
     display: flex;
     height: 90%;
     align-items: center;
     justify-content: center;
-
 }
 
 .container3_main .item2{
     margin: 2rem;
-
 }
 
 .container3_main h1{
-    font-size: 2.2em;
     margin: -7rem 0rem 1rem 17rem;
 }
 
 .container3_main p{
     margin-left: 17rem;
     margin-right: 1rem;
-    line-height: 1.5;
 }
 
 .container3_main img{
     margin-left: 4rem;
     max-width: 60%;
-
 }
 
 .edit_image{
     padding-top: 5rem;
 }
 
-.fifth_section{}
+.fifth_section{
+    background-color: #d3d3d35c;
+    height: 900px;
+    
+}
 
-.container4_main{}
+.container4_main{
+    padding: 2rem 20rem;
+    display: flex;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container4_main h1{
+    margin: 10rem 0rem 1rem 0rem
+}
+
+.container4_main p{
+    margin: 0rem 5rem 0rem 4rem;
+    padding: 2px 0px 2px 17px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+.container4_main .download{
+    background-color: #0230bc73;
+    color: white;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
 
 .row_container{}
 
