@@ -49,34 +49,6 @@ button{
     width: 60px;
 }
 
-/* Main Debug*/
-
-
-.debug .row_container{
-    background-color: black;
-    display: flex;
-    height: 400px;
-    padding: 1rem 20rem 2rem 20rem;
-
-
-}
-
-.debug .column_main{
-    flex: 2;
-    height: 100%;
-    background-color: #d67979;
-    border: 2px dashed black;
-
-}
-
-.debug .column_minor{
-    flex: 1;
-    height: 100%;
-    background-color: #4aa6a3;
-    border: 2px dashed white;
-
-}
-
 /* Main */
 h1{
     font-size: 2.2em;
@@ -247,26 +219,81 @@ h3{
     margin-top: 2rem;
 }
 
+.row_container{
+    background-color: #212121;
+    display: flex;
+    height: 500px;
+    padding: 4rem 16rem 2rem 16rem;
 
-.row_container{}
+}
 
-.column_main{}
+.column_main{
+    flex: 2;
+    height: 100%;
 
-.column_minor{}
+}
+
+.column_minor{
+    flex: 1;
+    height: 100%;
+
+}
+.bandiera{
+    display: flex;
+}
+
+.column_main h2{
+    color: #627ef0;
+    padding: 0rem 3rem 2rem 0rem;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+
+.bandiera img{
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.bandiera p{
+    color: white;
+}
+
+.column_minor h4{
+    color: #627ef0;
+    padding: 1rem 3rem 0rem 0rem;
+
+}
+
+.column_minor a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 1rem;
+}
 
 hr{
-    background-color: white;
+    background-color: #808cd8;
+    height: 2px;
 }
+
+
 
 /* Footer */
 
 footer {
-    background-color: black;
-    padding: 1rem 20rem 0rem 20rem;
+    background-color: #212121;
+    padding: 1rem 16rem 3rem 16rem;
 }
 
 .container_footer {
-    background-color: #38f6d1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -274,14 +301,18 @@ footer {
 }
 
  
-.logo {
-    border: 2px dashed black;
-    background-color: #ffc0c0;
+.logo img{
     padding: 5px;
+    max-width: 100px;
+
 }
 
-.button{
-    border: 2px dashed black;
-    background-color: #ffc0c0;
-    padding: 5px;
+.container_footer .download{
+    background-color: #808cd8;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    width: 5rem;
 }
